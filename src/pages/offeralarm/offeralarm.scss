@@ -1,0 +1,26 @@
+page-offeralarm {
+    ion-item#mySecurityDevices-list-item11,ion-item#mySecurityDevices-list-item10,ion-item#mySecurityDevices-list-item9 {
+        color: #fff;
+        border-bottom: 1px solid rgba(86, 84, 84, 0.45);
+        background-color: rgba(255, 255, 255, 0.14);
+    }
+    
+    .item-inner {
+        border-bottom: 0px !important;
+    }
+    ion-title.title.title-md{
+        float: left !important;
+        margin-top: 2px;
+    }
+    a.home{
+        float: right !important;
+        color: #fff;
+        margin-top:3px;
+        padding-right: 0;
+        margin-right: -20px;
+    }
+    button ion-button{
+        padding-right: 0;
+        margin-right: 0;
+    }
+}

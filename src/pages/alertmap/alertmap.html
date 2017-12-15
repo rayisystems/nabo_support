@@ -1,0 +1,69 @@
+
+<ion-header>
+
+  <ion-navbar>  <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+  </button>
+    <ion-title>Alert Map</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+    <div #map id="map"></div> 
+  <div class="switch">
+   
+    <div class="btn-group" *ngIf="confirmbtn==true">
+      <button ion-button class="button res" (click)="saw()" icon-only>Saw the same</button>
+      <button ion-button  class="button redres" (click)="notsusp()" icon-only>Not Suspicious</button>
+  </div>
+  <div class="btn-group" *ngIf="ownerbtn==true">
+    <button ion-button class="button" (click)="ownercancel()" icon-only>Cancel Process</button>
+    </div>
+    <!-- <div class="btn-group" >
+        <button ion-button class="button" (click)="progress()" icon-only>progress</button>
+        </div> -->
+  </div>
+  <!-- <button ion-button class="map_btn" icon-only (click)='getUserPosition()'>
+      <ion-icon name="ios-locate-outline"></ion-icon>
+  </button> -->
+  <div id="pgBar"><div id="red" *ngIf="btn==''" class="step_1">
+    <div [ngStyle]="{'background-color':  _red? 'red' : 'black'}" class="line"></div>
+    <div [ngStyle]="{'background-color':  _red? 'red' : 'black'}" class="round"></div>
+</div>
+      <div id="red" *ngIf="btn=='BP' || btn=='BC' || btn=='B'" class="step_1">
+          <div [ngStyle]="{'background-color':  _red? 'red' : 'black'}" class="line"></div>
+          <div [ngStyle]="{'background-color':  _red? 'red' : 'black'}" class="round"></div>
+      </div>
+      <div id="red" *ngIf="btn=='SP'||btn=='SC'|| btn=='S'" class="step_1">
+        <div [ngStyle]="{'background-color':  _red? 'yellow' : 'black'}" class="line"></div>
+        <div [ngStyle]="{'background-color':  _red? 'yellow' : 'black'}" class="round"></div>
+    </div>
+      <div id="brown"  *ngIf="btn1==''" class="step_2">
+          <div [ngStyle]="{'background-color':  _brown? 'brown' : 'black'}" class="line"></div>
+          <div [ngStyle]="{'background-color':  _brown? 'brown' : 'black'}" class="round"></div>
+      </div>
+      <div id="blue"  *ngIf="btn1==''" class="step_3">
+          <div [ngStyle]="{'background-color':  _blue? 'blue' : 'black'}" class="line"></div>
+          <div [ngStyle]="{'background-color':  _blue? 'blue' : 'black'}" class="round"></div>
+      </div>
+      <div id="grey"  *ngIf="btn1==''" class="step_4">
+          <div [ngStyle]="{'background-color':  _grey? 'grey' : 'black'}" class="line"></div>
+          <div [ngStyle]="{'background-color':  _grey? 'grey' : 'black'}" class="round"></div>
+      </div>
+      <div id="brown"  *ngIf="btn1=='C'" class="step_2">
+        <div [ngStyle]="{'background-color':  _brown? 'grey' : 'black'}" class="line"></div>
+        <div [ngStyle]="{'background-color':  _brown? 'grey' : 'black'}" class="round"></div>
+    </div>
+    <div id="blue"  *ngIf="btn1=='C'" class="step_3">
+        <div [ngStyle]="{'background-color':  _blue? 'grey' : 'black'}" class="line"></div>
+        <div [ngStyle]="{'background-color':  _blue? 'grey' : 'black'}" class="round"></div>
+    </div>
+    <div id="grey"  *ngIf="btn1=='C'" class="step_4">
+        <div [ngStyle]="{'background-color':  _grey? 'grey' : 'black'}" class="line"></div>
+        <div [ngStyle]="{'background-color':  _grey? 'grey' : 'black'}" class="round"></div>
+    </div>
+      
+  </div>
+</ion-content>

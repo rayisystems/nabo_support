@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357015216809",
+    "firebase_url": "https://nabosupport-88f31.firebaseio.com",
+    "project_id": "nabosupport-88f31",
+    "storage_bucket": "nabosupport-88f31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357015216809:android:fc82c84ac978a309",
+        "android_client_info": {
+          "package_name": "com.rayi.nabosupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357015216809-bf1r6vn4rduovjugr314fsofip5hodgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXFul-cI2RPAPNeNWSbMNbJnGJWiNki-s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

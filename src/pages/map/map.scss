@@ -1,0 +1,189 @@
+/*##css for map page##*/
+.ios, .md {
+    
+    page-map {
+      .badge-md {
+        border-radius: 4px;
+        font-size: 16px;
+        color: #fff;
+        background-color: rgba(85, 94, 110, 0.7215686274509804);
+    }
+      ion-item#contactList-list-item {
+        background-color: rgba(255, 255, 255, 0.14);
+        color: #fff;
+        border-bottom: 1px solid rgba(86, 84, 84, 0.45);
+        position: relative;
+        top: 20%;
+        bottom :50%;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    ion-title.title.title-md{
+      float: left;
+      margin-top:2px;
+    }
+    a.home{
+      float: right !important;
+      color: #fff;
+      margin-top:3px;
+    }
+    .push_tag .item-inner {
+      border-bottom: 0px !important;
+  }
+         .scroll {
+           height: 100%
+         }
+    
+         #map {
+           width: 100%;
+           height: 100%;
+            .gm-style-iw {
+            background-color: #252525;
+            padding: 2% 11%;
+          }
+          .iw-content p {
+            color: #a5a5a5;
+          }
+          .iw-subTitle {
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 5px 0;
+          }
+         }
+         button.map_btn {
+          position: absolute;
+          background-color:#fff;
+          color: #000000;
+          bottom: 116px;
+          right: 5px;
+      }
+      ion-icon.icon.icon-md.ion-ios-locate-outline {
+        margin-right: 0px;
+        padding: 5px;
+    }
+    .switch {
+      position: fixed;
+      bottom: 10px;
+      left: 45%;
+      transform: translate3d(-50%, -50%, 0);
+      width: 80%;
+      border-radius: 10px;
+      text-align: center;
+      z-index: 100;
+      opacity: .9;
+      .active {
+        background: #3366CC!important;
+        color: #fff;
+    }
+    button.button.redres.disable-hover.button-md.button-default.button-default-md {
+      background: linear-gradient(#41de0f, #0f730a);
+  }
+    button.button.res.disable-hover.button-md.button-default.button-default-md {
+      background: linear-gradient(#f71111, #521f1f);
+  }
+    button.alert {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+.alert_msg .item {
+    border-bottom: 1px solid #000 !important;
+}
+
+.alert_msg .item-inner {
+    border-bottom: 2px solid #948d8d !important;
+    box-shadow: inset 0 -1px 0 0 #000 !important;
+}
+      .button {
+        padding: 10px;
+        width: 45%;
+        color: #FFF;
+    }
+    .btn-group .button:first-child {
+      border-radius: 25px 0 0 25px;
+      background:black;
+  }         
+  .btn-group .button:last-child {
+    border-radius: 0 25px 25px 0;
+    margin-left: -1px;
+    background:gray;
+}
+
+.btn-group .button:only-child {
+    border-radius: 6px;
+    margin-left: 0;
+}
+
+    
+.active{
+  display:none;
+}     
+button.alert {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+.alert_msg .item {
+  border-botton: 1px solid #000 !important;
+}
+
+.alert_msg .item-inner {
+  border-bottom: 2px solid #948d8d !important;
+  box-shadow: inset 0 -1px 0 0 #000 !important;
+}
+.alert_msg {
+  background-color: rgba(0, 0, 0, 0.81);
+  border-radius: 20px;
+}
+
+ion-input.alertinput input {
+  margin: 0px;
+}
+.alert_msg .list-md {
+  margin-bottom: 0px;
+}       
+    }
+
+    .gm-style{
+      .gm-style-iw {
+        background-color: #252525 !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        min-height: 120px !important;
+        padding-top: 10px;
+        display: block !important;
+     }
+     /*style the paragraph tag*/
+    .gm-style-iw #google-popup p{
+    padding: 10px;
+ }
+ /*style the annoying little arrow at the bottom*/
+ div div div div div div div div {
+  background-color: #252525 !important;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  color: #fff;
+  font-size: 16px;
+}
+ /*style the link*/
+ div div div div div div div div a {
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+    }     
+   
+       }
+    
+   }
